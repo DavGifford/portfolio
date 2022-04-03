@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <title>David's Portfolio</title>
 </head>
 <body>
@@ -23,7 +26,19 @@
         </nav>
 
         <main>
+            <h2>Contact Me</h2>
 
+            <form id="contactform" action="contact_sheet/php" method="get">
+                <div class="contact_area">
+               <span class="contact_big_text">Send me a message</span><br>
+                   <label for="fullname">Full Name</label> <br>
+                   <input id="fullname" type="text"> <br>
+                   <label for="email">Email</label> <br>
+                   <input id="email" type="email"> <br>
+                   <label for="message">Message</label> <br>
+                   <input id="message" type="text"> <br><br>
+                   <button id="contact_button" type="submit">Send</button>
+                   
         </main>
 
         <footer>
