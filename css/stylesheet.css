@@ -50,39 +50,7 @@ table {
 /* 
 My Stuff
 */
-
-nav{
-	background-color: white;
-	padding: 15px;
-}
-
-nav a{
-	text-decoration: none;
-	color: #000;
-	font-size: 1.1em;
-    text-align: center;
-    transition: 0.3s;
-}
-nav li{
-	display: block;
-	padding:15px 40% 15px 40% ;
-}
-a:hover{
-    transform: scale(1.2);
-    background-color: black;
-    color: white;
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;
-    font-weight: bold;
-}
-.container{
-	margin:20px auto ;
-}
-
-/* 
-Index
-*/
-
-.top-index{
-
+main{
+	max-width: 1280px;
+	margin: 0 auto;
 }
